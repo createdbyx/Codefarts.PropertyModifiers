@@ -1,0 +1,62 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net6.0</TargetFramework>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+        <RootNamespace>Codefarts.PropertyModifiers</RootNamespace>
+        <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+        <PackageVersion>1.0.0.0</PackageVersion>
+        <Authors>Codefarts</Authors>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <Compile Include="..\PropertyModifiersPCL\BasicPropertyModifier ForUnity.cs">
+        <Link>BasicPropertyModifier ForUnity.cs</Link>
+      </Compile>
+      <Compile Include="..\PropertyModifiersPCL\BasicPropertyModifier Standard.cs">
+        <Link>BasicPropertyModifier Standard.cs</Link>
+      </Compile>
+      <Compile Include="..\PropertyModifiersPCL\BasicPropertyModifier.cs">
+        <Link>BasicPropertyModifier.cs</Link>
+      </Compile>
+      <Compile Include="..\PropertyModifiersPCL\FloatProperty.cs">
+        <Link>FloatProperty.cs</Link>
+      </Compile>
+      <Compile Include="..\PropertyModifiersPCL\FloatPropertyModifier.cs">
+        <Link>FloatPropertyModifier.cs</Link>
+      </Compile>
+      <Compile Include="..\PropertyModifiersPCL\IntegerPropertyModifier.cs">
+        <Link>IntegerPropertyModifier.cs</Link>
+      </Compile>
+      <Compile Include="..\PropertyModifiersPCL\Interfaces\IProperty.cs">
+        <Link>Interfaces\IProperty.cs</Link>
+      </Compile>
+      <Compile Include="..\PropertyModifiersPCL\Interfaces\IPropertyModifier.cs">
+        <Link>Interfaces\IPropertyModifier.cs</Link>
+      </Compile>
+      <Compile Include="..\PropertyModifiersPCL\IntProperty.cs">
+        <Link>IntProperty.cs</Link>
+      </Compile>
+      <Compile Include="..\PropertyModifiersPCL\ModifierType.cs">
+        <Link>ModifierType.cs</Link>
+      </Compile>
+      <Compile Include="..\PropertyModifiersPCL\Unity\PropertiesReader.cs">
+        <Link>Unity\PropertiesReader.cs</Link>
+      </Compile>
+    </ItemGroup>
+
+    <ItemGroup>
+      <AdditionalFiles Include="..\stylecop.json">
+        <Link>stylecop.json</Link>
+      </AdditionalFiles>
+    </ItemGroup>
+
+    <ItemGroup>
+      <PackageReference Include="StyleCop.Analyzers" Version="1.1.118">
+        <PrivateAssets>all</PrivateAssets>
+        <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+      </PackageReference>
+    </ItemGroup>
+
+</Project>

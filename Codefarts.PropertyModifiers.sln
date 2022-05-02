@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PropertyModifiersPCL", "PropertyModifiersPCL\PropertyModifiersPCL.csproj", "{E42CADF8-7DB9-4BF9-A849-C01FC4F36AFF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Codefarts.PropertyModifiers.UnitTests", "Codefarts.PropertyModifiers.UnitTests\Codefarts.PropertyModifiers.UnitTests.csproj", "{1B499D3B-5514-4BEF-BA4C-2FB596C25E5D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Codefarts.PropertyModifiersNET6", "Codefarts.PropertyModifiersNET6\Codefarts.PropertyModifiersNET6.csproj", "{7C10EE1E-8BB2-4766-9EE8-A17E47B61AE5}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E42CADF8-7DB9-4BF9-A849-C01FC4F36AFF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E42CADF8-7DB9-4BF9-A849-C01FC4F36AFF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E42CADF8-7DB9-4BF9-A849-C01FC4F36AFF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E42CADF8-7DB9-4BF9-A849-C01FC4F36AFF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1B499D3B-5514-4BEF-BA4C-2FB596C25E5D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1B499D3B-5514-4BEF-BA4C-2FB596C25E5D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1B499D3B-5514-4BEF-BA4C-2FB596C25E5D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1B499D3B-5514-4BEF-BA4C-2FB596C25E5D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7C10EE1E-8BB2-4766-9EE8-A17E47B61AE5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7C10EE1E-8BB2-4766-9EE8-A17E47B61AE5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7C10EE1E-8BB2-4766-9EE8-A17E47B61AE5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7C10EE1E-8BB2-4766-9EE8-A17E47B61AE5}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
